@@ -1,0 +1,63 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #724b39;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    padding: 15px;
+    align-self: center;
+    border-radius: 30px;
+    width: 160px;
+    background-color: #325d9c;
+    border: solid 1px #193285;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.traco {
+    background-color: #193285;
+    height: 5px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.remind {
+    display: flex;
+    gap: 10px;
+}
+
+.titulo-traco {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

@@ -4,7 +4,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #724b39;
+    background-size: cover;
 }
 
 form {
@@ -60,4 +60,20 @@ button {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.body {
+    background-color: #193285;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited, a:hover, a:active {
+    color: rgb(255, 145, 0);
 }

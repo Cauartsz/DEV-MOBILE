@@ -11,12 +11,15 @@ body {
 }
 
 form {
-    background-color: rgb(209, 216, 226);
-    padding: 30px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    background-color: rgb(209, 216, 226); /* OK */
+    padding: 25px; /* OK */
+    border-radius: 5px; /* OK */
+    display: flex; /* OK */
+    flex-direction: column; /* OK */
+    gap: 10px;
+    width: auto;
+    height: auto;
+    margin: auto;
 }
 
 input {
@@ -31,36 +34,35 @@ h1 {
 }
 
 button {
-    padding: 15px;
+    padding: 10px;
+    bottom: unset;
     align-self: center;
-    border-radius: 30px;
+    border-radius: 15px;
+    border: solid 1px #193285;
     width: 160px;
     background-color: #325d9c;
-    border: solid 1px #193285;
     font-size: 18px;
-    font-weight: bold;
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
+    margin: auto;
 }
 
 .traco {
     background-color: #193285;
-    height: 5px;
+    height: 3px;
+    margin-bottom: 5px;
 }
 
 .input {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 7px;
 }
 
 .remind {
-    display: flex;
     gap: 10px;
 }
 
 .titulo {
-    display: flex;
     flex-direction: column;
     gap: 5px;
     font-family: fantasy;
@@ -70,6 +72,7 @@ button {
 .body {
     background-color: #193285;
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
